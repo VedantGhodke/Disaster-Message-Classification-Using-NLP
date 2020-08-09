@@ -1,6 +1,6 @@
-# Disaster Response Pipeline
+# Disaster Message Classification Using NLP
 
-> An NLP pipeline to clean, preprocess and train a text classifier for disaster response management. 
+This is a code for an NLP pipeline to clean, pre-process and train a text classifier for disaster response management. 
 
 ## Dataset
 
@@ -74,7 +74,7 @@ python data/process_data.py data/disaster_messages.csv data/disaster_categories.
 python models/train_classifier.py data/DisasterResponse.db
 ```
 
-**Note: Takes about 1 hour 40 minutes to finish training on a 6 core i5 8th gen CPU**
+**Note: This takes about 1 hour 40 minutes to finish training on a 6 core i5 8th gen CPU**
 
 ### To run the webapp
 
